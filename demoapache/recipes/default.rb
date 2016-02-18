@@ -1,5 +1,5 @@
 #
-# Cookbook Name:: lamp-stack
+# Cookbook Name:: demoapache
 # Recipe:: default
 #
 #
