@@ -1,4 +1,3 @@
-source            "https://github.com/VincentNgai/testopswork/"
 name             "demoapache"
 description      "Installs and configures all aspects of apache2 using Debian style symlinks with helper definitions"
 maintainer       "Vincent"
