@@ -1,31 +1,10 @@
-{
-  "name": "demoapache",
-  "description": "A fabulous new cookbook",
-  "long_description": "",
-  "maintainer": "YOUR_COMPANY_NAME",
-  "maintainer_email": "YOUR_EMAIL",
-  "license": "none",
-  "platforms": {
-  },
-  "dependencies": {
-  },
-  "recommendations": {
-  },
-  "suggestions": {
-  },
-  "conflicting": {
-  },
-  "providing": {
-  },
-  "replacing": {
-  },
-  "attributes": {
-  },
-  "groupings": {
-  },
-  "recipes": {
-  },
-  "version": "0.0.0",
-  "source_url": "",
-  "issues_url": ""
-}
+name 'demoapache'
+maintainer 'VincentNgai'
+maintainer_email '1@1.com'
+source_url 'https://github.com/VincentNgai/testopswork/' if respond_to?(:source_url)
+license 'Apache 2.0'
+description 'Installs and configures all aspects of apache2 using Debian style symlinks with helper definitions'
+long_description IO.read(File.join(File.dirname(__FILE__), 'README.md'))
+version '1.0.0'
+
+supports 'ubuntu'
