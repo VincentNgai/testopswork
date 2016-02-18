@@ -1,5 +1,6 @@
-name             "apache2"
+source            "https://github.com/VincentNgai/testopswork/"
+name             "demoapache"
 description      "Installs and configures all aspects of apache2 using Debian style symlinks with helper definitions"
-maintainer       "V"
+maintainer       "Vincent"
 license          "Apache 2.0"
 version          "1.0.0"
